@@ -1,0 +1,10 @@
+
+body{font-family:Arial;margin:0;background:#f5f7ff}
+header{background:#111;color:white;padding:20px}
+aside{background:#eee;padding:20px}
+nav{display:flex;flex-direction:column;gap:10px}
+nav a{text-decoration:none;background:white;padding:10px;border-radius:6px}
+main{padding:20px}
+img{max-width:100%;height:auto}
+figure img{max-width:800px}
+footer{background:#111;color:white;text-align:center;padding:10px;margin-top:40px}
