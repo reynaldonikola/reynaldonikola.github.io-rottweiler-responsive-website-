@@ -1,0 +1,19 @@
+Project 3 Submission Notes - Rottweiler World
+
+Requirements included:
+- Overall layout uses CSS Grid.
+- Internal containers use Flexbox.
+- Semantic HTML5 tags used: main, header, section, article, nav, aside, footer, figure, figcaption, details.
+- One-page responsive website with Home, Gallery, Media, and Contact sections.
+- Aside navigation on the left with anchor links.
+- Gallery includes images and a figure with figcaption.
+- Media section includes an embedded YouTube video.
+- Contact section includes placeholder contact details.
+
+Extra design features included:
+- Simple CSS animations (fade, pop-in, floating logo).
+- Font Awesome icons.
+- Gradients, hover effects, shadows, and responsive behavior.
+
+Included image sources:
+- Wikimedia Commons public domain / CC0 files.

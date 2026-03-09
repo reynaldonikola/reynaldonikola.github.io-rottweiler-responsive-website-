@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive one-page website about Rottweilers featuring breed facts, gallery, media, and contact information.">
+  <title>Rottweiler World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <div class="site-grid">
+    <header class="site-header" id="home">
+      <div class="brand">
+        <img src="img/rottweiler-puppy-face.jpg" alt="Rottweiler puppy logo" class="brand-logo">
+        <div>
+          <p class="eyebrow">Strong. Loyal. Intelligent.</p>
+          <h1>Rottweiler World</h1>
+          <p class="subtitle">A responsive website celebrating one of the most confident and devoted dog breeds.</p>
+        </div>
+      </div>
+      <div class="hero-card fade-up">
+        <span class="tag">Breed Focus</span>
+        <h2>Built for a one-page web experience</h2>
+        <p>This project uses CSS Grid for the overall layout, Flexbox inside sections, anchor navigation, responsive images, embedded media, and simple animations.</p>
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <nav class="side-nav" aria-label="Section navigation">
+        <h2><i class="fa-solid fa-paw"></i> Menu</h2>
+        <a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#gallery" class="nav-link"><i class="fa-solid fa-image"></i> Gallery</a>
+        <a href="#media" class="nav-link"><i class="fa-solid fa-play"></i> Media</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </nav>
+
+      <details class="quick-facts">
+        <summary>Quick facts about Rottweilers</summary>
+        <ul>
+          <li>Known for confidence and loyalty.</li>
+          <li>Need regular exercise and structured training.</li>
+          <li>Excel as family companions when socialized well.</li>
+          <li>Strong working heritage and protective instincts.</li>
+        </ul>
+      </details>
+    </aside>
+
+    <main class="main-content">
+      <section class="content-section intro-section reveal-on-scroll">
+        <article class="section-heading">
+          <p class="eyebrow">Home</p>
+          <h2>Why people admire Rottweilers</h2>
+          <p>Rottweilers are powerful, dependable dogs with a long working history. They are admired for their courage, intelligence, and deep loyalty to their families. With proper training, socialization, and daily activity, they become calm and steady companions.</p>
+        </article>
+
+        <div class="card-grid">
+          <article class="info-card pop-in">
+            <i class="fa-solid fa-shield-dog"></i>
+            <h3>Protective nature</h3>
+            <p>Rottweilers are naturally watchful and confident. They often form strong bonds with their families and thrive when given structure and purpose.</p>
+          </article>
+          <article class="info-card pop-in">
+            <i class="fa-solid fa-dumbbell"></i>
+            <h3>Training and exercise</h3>
+            <p>They respond best to consistent leadership, positive reinforcement, and routines that challenge both body and mind.</p>
+          </article>
+          <article class="info-card pop-in">
+            <i class="fa-solid fa-soap"></i>
+            <h3>Care and grooming</h3>
+            <p>The coat is easy to maintain, but regular brushing, nail care, and a healthy diet are still important for overall well-being.</p>
+          </article>
+          <article class="info-card pop-in">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Loyal companion</h3>
+            <p>When raised in a caring environment, Rottweilers can be affectionate, stable, and deeply devoted family dogs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section gallery-section reveal-on-scroll" id="gallery">
+        <article class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Rottweiler photo gallery</h2>
+          <p>These images highlight the breed’s classic black-and-tan coat, expressive face, and strong build. One image is presented inside a semantic figure with a caption.</p>
+        </article>
+
+        <div class="gallery-grid">
+          <figure class="featured-figure">
+            <img src="img/rottweiler-adult-3.jpg" alt="Adult Rottweiler resting on grass">
+            <figcaption>Adult Rottweiler resting outdoors and showing the breed’s calm, confident presence.</figcaption>
+          </figure>
+
+          <article class="gallery-card">
+            <img src="img/rottweiler-adult-1.jpg" alt="Young Rottweiler sitting near a brick wall">
+            <h3>Young and alert</h3>
+            <p>A focused young Rottweiler with the classic markings and attentive expression.</p>
+          </article>
+
+          <article class="gallery-card">
+            <img src="img/rottweiler-adult-2.jpg" alt="Rottweiler standing in a yard">
+            <h3>Active outdoors</h3>
+            <p>Rottweilers enjoy movement, training, and time outside with their owners.</p>
+          </article>
+
+          <article class="gallery-card">
+            <img src="img/rottweiler-puppy-face.jpg" alt="Close up of a smiling Rottweiler puppy">
+            <h3>Puppy stage</h3>
+            <p>Early socialization and positive experiences are important during puppyhood.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section media-section reveal-on-scroll" id="media">
+        <article class="section-heading">
+          <p class="eyebrow">Media</p>
+          <h2>Watch a Rottweiler video</h2>
+          <p>This embedded video adds media content to the site and fits the project requirement for a video section.</p>
+        </article>
+
+        <div class="media-wrapper">
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/vrMzwQ4fT7Q"
+              title="Rottweiler video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen></iframe>
+          </div>
+          <article class="media-notes">
+            <h3>Why this section matters</h3>
+            <p>Responsive websites should handle different kinds of content, not just text and images. Embedded media helps make a page richer and more engaging.</p>
+            <ul>
+              <li>Responsive iframe container</li>
+              <li>Grid and Flexbox layout working together</li>
+              <li>Hover and reveal animation effects</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section contact-section reveal-on-scroll" id="contact">
+        <article class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Contact information</h2>
+          <p>These are placeholder details for the project. The contact section also uses semantic layout and icon styling.</p>
+        </article>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Email</h3>
+            <p>info@rottweilerworld.com</p>
+          </article>
+          <article class="contact-card">
+            <i class="fa-solid fa-phone"></i>
+            <h3>Phone</h3>
+            <p>(801) 555-7821</p>
+          </article>
+          <article class="contact-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Address</h3>
+            <p>250 Dog Lover Ave<br>Provo, UT 84601</p>
+          </article>
+          <article class="contact-card">
+            <i class="fa-solid fa-clock"></i>
+            <h3>Hours</h3>
+            <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <article>
+        <h2>Project notes</h2>
+        <p>This project includes CSS Grid, Flexbox, responsive behavior, anchor navigation, semantic HTML5 tags, simple CSS animations, and Font Awesome icons.</p>
+      </article>
+      <article>
+        <h2>Image credits</h2>
+        <p>Included Rottweiler images come from Wikimedia Commons public domain or CC0 files used for educational project purposes.</p>
+      </article>
+      <p class="copyright">&copy; <span id="year"></span> Rottweiler World</p>
+    </footer>
+  </div>
+</body>
+</html>
